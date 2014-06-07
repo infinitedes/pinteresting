@@ -22,6 +22,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # boostrap front end css framework
 gem 'bootstrap-sass'
+# devise gem for user account management
+gem 'devise', '~> 3.2.4'
 
 group :development, :test do
 	gem 'sqlite3'
