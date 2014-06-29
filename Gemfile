@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 # devise gem for user account management
 gem 'devise', '~> 3.2.4'
+# devise gem for image management
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
 
 group :development, :test do
 	gem 'sqlite3'
