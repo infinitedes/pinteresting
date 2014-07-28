@@ -26,6 +26,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.2.4'
 # devise gem for image management
 gem 'paperclip', github: 'thoughtbot/paperclip'
+# Amazon S3 for live image storage
+gem 'aws-sdk', '~> 1.45.0'
 
 
 group :development, :test do
