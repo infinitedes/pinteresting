@@ -27,7 +27,7 @@ gem 'devise', '~> 3.2.4'
 # devise gem for image management
 gem 'paperclip', github: 'thoughtbot/paperclip'
 # Amazon S3 for live image storage
-gem 'aws-sdk', '~> 1.50.0'
+gem 'aws-sdk'
 
 
 group :development, :test do
