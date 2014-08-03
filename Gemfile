@@ -33,8 +33,6 @@ gem 'aws-sdk'
 # Masonry grid display
 gem 'masonry-rails', '~> 0.2.0'
 
-
-
 group :development, :test do
 	gem 'sqlite3'
 end
