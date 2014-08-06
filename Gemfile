@@ -32,6 +32,10 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk'
 # Masonry grid display
 gem 'masonry-rails', '~> 0.2.0'
+# index page pin pagination
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
+
 
 group :development, :test do
 	gem 'sqlite3'
