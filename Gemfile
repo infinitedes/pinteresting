@@ -43,7 +43,7 @@ end
 
 group :production do
 	gem 'pg'
-	gem 'rails_12factor'
+	gem 'rails_12factor', group: :production
 end
 
 # bundle exec rake doc:rails generates the API under doc/api.
